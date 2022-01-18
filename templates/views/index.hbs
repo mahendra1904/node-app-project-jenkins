@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+
+  <title>Tech Expert</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  {{>navbar}}
+  <header class="main-header" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-12 col-lg-6 header-left  order-1">
+          <h1>Welcome to <span class="brandName">Tech Expert</span></h1>
+          <h2>We are here to grow your business</h2>
+          <p>Meet our Experts to design your business Online Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Libero cupiditate et, asperiores expedita ea eius aliquam perspiciatis dolore dicta cum est enim aperiam
+            voluptas sunt quidem ad officia totam dolores fugit? Eaque, officia amet. Quaerat quo animi quae eligendi
+            id.</p>
+          <a href="#contact"><button class="mybutton">Get in Touch</button></a>
+
+        </div>
+
+        <div class="col-md-12 col-lg-6 col-12 header-right mt-5 order-0">
+          <figure>
+            <img class="img-fluid" src="images/growth.svg" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{!-- services section start --}}
+
+  <section class="service-section container mt-5 d-flex justify-content-center align-items-center flex-column"
+    id="services">
+    {{!-- <section class="service-section container mt-5 "> --}}
+
+      <h1 class="headings mb-5">Services</h1>
+      {{!--
+      <hr> --}}
+
+      <div class="row g-5">
+
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="card mb-3 mycard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="images/sd.jpg" class="img-fluid rounded-start service-image" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body text-center">
+                  <h4 class="card-title text-center">Software Developement</h4>
+                  <hr>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <a href=""><button class="mybutton">Ask to Our Expert</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="card mb-3 mycard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="images/sd1.jpg" class="img-fluid rounded-start service-image" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body text-center">
+                  <h4 class="card-title text-center">Web Development</h4>
+                  <hr>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <a href=""><button class="mybutton">Ask to Our Expert</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="card mb-3 mycard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="images/dm2.jpg" class="img-fluid rounded-start service-image" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body text-center">
+                  <h4 class="card-title text-center">Digital Marketing</h4>
+                  <hr>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <a href=""><button class="mybutton">Ask to Our Expert</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="card mb-3 mycard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="images/seo.jpg" class="img-fluid rounded-start service-image" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body text-center">
+                  <h4 class="card-title text-center">Quality SEO</h4>
+                  <hr>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <a href=""><button class="mybutton">Ask to Our Expert</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="card mb-3 mycard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="images/ecom.jpeg" class="img-fluid rounded-start service-image" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body text-center">
+                  <h4 class="card-title text-center">E-Commerce Softwares</h4>
+                  <hr>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <a href=""><button class="mybutton">Ask to Our Expert</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="card mb-3 mycard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="images/ecom.jpeg" class="img-fluid rounded-start service-image" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body text-center">
+                  <h4 class="card-title text-center">Certification of Quality</h4>
+                  <hr>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <a href=""><button class="mybutton">Ask to Our Expert</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    {{!-- services section ends --}}
+
+    {{!-- about section start --}}
+
+    {{!-- <section class="about-section container mt-5 d-flex justify-content-center align-items-center flex-column">
+      --}}
+      <section class="about-section container-fluid mt-5 " id="about">
+
+        <h1 class="headings mb-5">About Us</h1>
+
+        <div class="row">
+          <div class="col-md-6 col-12">
+
+            <figure>
+              <img class="img-fluid" src="images/about.svg" alt="">
+            </figure>
+
+          </div>
+
+          <div class="col-md-6 col-12">
+            <div class="mycard aboutcard">
+              <h4 class="text-center">100% Customer Satisfaction</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam iusto sint aspernatur autem
+                doloremque voluptas consequuntur, optio excepturi facilis nobis doloribus cum porro vero pariatur,
+                commodi delectus earum rem. Perferendis odit est exercitationem voluptates, quae omnis itaque nihil
+                fuga.</p>
+            </div>
+            <div class="mycard aboutcard">
+              <h4 class="text-center">Latest Technologies</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam iusto sint aspernatur autem
+                doloremque voluptas consequuntur, optio excepturi facilis nobis doloribus cum porro vero pariatur,
+                commodi delectus earum rem. Perferendis odit est exercitationem voluptates, quae omnis itaque nihil
+                fuga.</p>
+            </div>
+            <div class="mycard aboutcard">
+              <h4 class="text-center">24/7 Support</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam iusto sint aspernatur autem
+                doloremque voluptas consequuntur, optio excepturi facilis nobis doloribus cum porro vero pariatur,
+                commodi delectus earum rem. Perferendis odit est exercitationem voluptates, quae omnis itaque nihil
+                fuga.</p>
+            </div>
+            <div class="mycard aboutcard">
+              <h4 class="text-center">ISO Certified</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam iusto sint aspernatur autem
+                doloremque voluptas consequuntur, optio excepturi facilis nobis doloribus cum porro vero pariatur,
+                commodi delectus earum rem. Perferendis odit est exercitationem voluptates, quae omnis itaque nihil
+                fuga.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      {{!-- about section end --}}
+
+      {{!-- contact section start --}}
+
+      <section class="container contact-section mt-5" id="contact">
+        <h1 class="headings mb-5">Contact Us</h1>
+        <div class="contactpage">  
+        <div class="row g-5">
+          <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column">
+              <figure>
+                <img src="images/contactus2.jpg" alt="contactus" class="img-fluid contactimg">
+              </figure>
+              <div class="contact-data">
+                <i class="bi bi-telephone-outbound-fill myicon"></i>
+                <span class="mycontact">+91-9716160389</span><br>
+                <i class="bi bi-envelope-open-fill myicon"></i>
+                <span class="mycontact">techexpert@gmail.com</span>
+              </div>
+          </div>
+
+
+          <div class="col-md-6 col-12 mx-auto">
+            <form action="/contact" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" name="email" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class=" mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="phone" class="form-control" id="phone" name="phone" required>
+              </div>
+              <div class=" mb-3">
+                <label for="floatingTextarea">Comments</label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                  style="height: 100px" name="message" required></textarea>
+              </div >
+              <button type="submit" class="btn mybutton mb-3 fw-bold">Submit</button>
+            </form>
+
+          </div>
+        </div>
+        </div>
+      </section>
+
+      {{!-- contact us section ends --}}
+
+      {{!-- footer section strats --}}
+
+      <footer>
+        <div class="container-fluid myfooter">
+          <div class="d-flex justify-content-center align-items-center flex-row">
+            <i class="bi footer-icon bi-facebook"></i>
+            <i class="bi footer-icon bi-twitter"></i>
+            <i class="bi footer-icon bi-instagram"></i>
+          </div>
+          <div class="d-flex justify-content-center align-items-center flex-row">
+            <a class="footer-link" href="#home">Home</a>
+            <a class="footer-link" href="#services">Services</a>
+            <a class="footer-link" href="#about">About Us</a>
+            <a class="footer-link" href="#contact">Contact Us</a>
+          </div>
+          <div class="d-flex justify-content-center align-items-center flex-row">
+            <p class="footer-note">Created with ❤ &copy; TechExpert Softlab Corporation</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
